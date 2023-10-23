@@ -1,0 +1,364 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url("fonts/OpenSans-VariableFont_wdth\,wght.ttf") format("truetype");
+}
+
+
+.container {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+
+}
+
+header {
+    border-bottom: 1px solid #828282;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header ul {
+    display: flex;
+
+}
+
+header ul li {
+    margin-right: 40px;
+}
+
+header ul li:last-child {
+    margin-right: 0;
+}
+
+header ul li a {
+    color: var(--Black, #828282);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+
+header ul li a:hover {
+    color: black
+}
+
+.menu {
+    text-decoration: none;
+}
+
+.firstimg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 21px;
+    margin-right: 21px;
+    color: var(--Black, #070707);
+    font-family: Open Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.firstimg img {
+    width: 970px;
+    height: 387px;
+    flex-shrink: 0;
+
+}
+
+
+
+.firstimg h1 {
+    display: flex;
+    align-self: flex-start;
+    color: var(--Black, #070707);
+    font-family: Open Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 100%;
+    max-width: 970px;
+    margin: 12px auto 50px auto;
+
+
+}
+
+.about {
+
+    background-color: #f6f6f6;
+}
+
+.about h2 {
+    color: var(--Black, #070707);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 50px;
+    padding-top: 100px;
+}
+
+.about p {
+    color: var(--Black, #070707);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    margin: 0 auto 30px auto;
+
+}
+
+.about p:nth-child(1) {
+    max-width: 480px;
+}
+
+.about p:nth-child(2) {
+    max-width: 480px;
+}
+
+.about p:nth-child(3) {
+    max-width: 406px;
+}
+
+.about p:nth-child(4) {
+    max-width: 321px;
+    padding-bottom: 100px;
+
+}
+
+.skills {
+    text-align: center;
+}
+
+.skills h2 {
+    color: var(--Black, #070707);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 100px;
+
+
+}
+
+.skills p {
+    color: var(--Black, #070707);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.icon-container {
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text, #828282);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.28px;
+
+}
+
+.skills .ps,
+.skills .ai,
+.skills .ae,
+.skills .figma {
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+    position: relative;
+
+}
+
+.skills .star-icon {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.skills img {
+    width: 50px;
+    height: 50px;
+
+}
+
+.ai,
+.ae,
+.figma {
+    padding-left: 97px;
+}
+
+.ps p,
+.ai p,
+.ae p,
+.figma p {
+    padding: 25px;
+
+}
+
+.star-icon {
+    padding-top: 60px;
+}
+
+.icon-figma {
+    padding-top: 80px;
+}
+
+.star-icon,
+.icon-figma:last-child {
+    margin-bottom: 100px;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 21px;
+    margin-right: 21px;
+    background-color: #f6f6f6;
+
+}
+
+.portfolio h2 {
+    color: var(--Black, #070707);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.portfolio p {
+    color: var(--Black, #070707);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 21px;
+    margin-right: 21px;
+
+}
+
+.contacts {
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+    position: relative;
+
+}
+
+.contacts h2 {
+    color: var(--Black, #070707);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.contacts p {
+    color: var(--Black, #070707);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+
+}
+
+.contacts p :last-child {
+    margin-bottom: 0;
+}
+
+.contacts button {
+    width: 180px;
+    height: 44px;
+    border-radius: 22px;
+    background: var(--Black, #070707);
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    display: block;
+    margin: 60px auto;
+}
+
+.sections {
+    display: flex;
+    width: 310px;
+    height: 40px;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.img {
+    display: flex;
+    width: 310px;
+    height: 40px;
+    align-items: flex-start;
+    margin-bottom: 60px;
+    gap: 50px;
+    padding-left: 25px;
+}
+
+.contacts span {
+    color: #828282;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
